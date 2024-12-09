@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  width: 100%;
+  height: 7vh;
+}
+.menuu {
+  padding-left: 3vw;
+  font-size: 25px;
+  padding-top: 1vh;
+  color: white;
+}
+.logoo {
+  padding-top: 1vh;
+}
+.logoo img {
+  height: 5vh;
+  width: 3vw;
+}
+.person {
+  padding-right: 3vw;
+  padding-top: 1vh;
+  font-size: 25px;
+  color: white;
+}
+.mw {
+  display: flex;
+  margin-top: 8vh;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 19px;
+  margin-bottom: 5vh;
+}
+.mw a {
+  color: #000;
+}
+.mw .w {
+  margin-right: 18vw;
+}
+.main-container {
+  display: flex;
+}
+.sizing {
+  width: 350px;
+}
+.cards {
+  width: calc(100% - 350px);
+  overflow-x: hidden;
+}
+.snap1:hover img {
+  opacity: 0;
+}
+.snap1:hover {
+  background-image: url("/images/snap1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.snap2:hover img {
+  opacity: 0;
+}
+.snap2:hover {
+  background-image: url("/images/snap2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.snap3:hover img {
+  opacity: 0;
+}
+.snap3:hover {
+  background-image: url("/images/snap3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.snap4:hover img {
+  opacity: 0;
+}
+.snap4:hover {
+  background-image: url("/images/snap4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.details1 {
+  /* border: 1px solid black; */
+  width: 70%;
+  border-radius: 10px;
+  background: white;
+  color: rgba(0, 0, 0, 0.555);
+}
+.details1:hover {
+  transform: scale(1.1) translateY(-20px);
+}
+.snap5:hover img {
+    opacity: 0;
+  }
+  .snap5:hover {
+    background-image: url("/images/snap5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap6:hover img {
+    opacity: 0;
+  }
+  .snap6:hover {
+    background-image: url("/images/snap6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap7:hover img {
+    opacity: 0;
+  }
+  .snap7:hover {
+    background-image: url("/images/snap7.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap8:hover img {
+    opacity: 0;
+  }
+  .snap8:hover {
+    background-image: url("/images/snap8.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap9:hover:hover img {
+    opacity: 0;
+  }
+  .snap9:hover:hover {
+    background-image: url("/images/snap9.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap10:hover img {
+    opacity: 0;
+  }
+  .snap10:hover {
+    background-image: url("/images/snap10.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap11:hover:hover img {
+    opacity: 0;
+  }
+  .snap11:hover {
+    background-image: url("/images/snap11.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .snap12:hover img {
+    opacity: 0;
+  }
+  .snap12:hover {
+    background-image: url("/images/snap12.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details2 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details2:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details3 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details3:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details4 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details4:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details5 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details5:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details6 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details6:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details7 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details7:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details8 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details8:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details9 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details9:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details10 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details10:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details11 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details11:hover {
+    transform: scale(1.1) translateY(-20px);
+  }.details12 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details12:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .pri a{
+    font-size: 3vh;
+    color: gray;
+    transition: all ease .50s;
+  }
+  .pri a:hover{
+    color: #000;
+  }
+  .plus{
+    font-size: 3vh;
+    color: gray;
+    transition: all ease .50s;
+  }
+  .plus:hover{
+    color: #000;
+  }

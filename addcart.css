@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+    height: 7vh;
+  }
+  .menuu {
+    padding-left: 3vw;
+    font-size: 25px;
+    padding-top: 1vh;
+    color: white;
+  }
+  .logoo {
+    padding-top: 1vh;
+  }
+  .logoo img {
+    height: 5vh;
+    width: 3vw;
+  }
+  .person {
+    padding-right: 3vw;
+    padding-top: 1vh;
+    font-size: 25px;
+    color: white;
+  }
+  .pic{
+    display: flex;
+  }
+  .left{
+    width: 60%;
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  Montserrat, sans-serif;
+    margin-top:5vh ;
+    margin-bottom: 5vh;
+  }
+  .snap3:hover img {
+    opacity: 0;
+  }
+  .snap3:hover {
+    background-image: url("/images/snap3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details3 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details3:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .details5 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details5:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .snap5:hover img {
+    opacity: 0;
+  }
+  .snap5:hover {
+    background-image: url("/images/snap5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details9 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details9:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .snap9:hover img {
+    opacity: 0;
+  }
+  .snap9:hover {
+    background-image: url("/images/snap9.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details11 {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    color: rgba(0, 0, 0, 0.555);
+  }
+  .details11:hover {
+    transform: scale(1.1) translateY(-20px);
+  }
+  .snap11:hover img {
+    opacity: 0;
+  }
+  .snap11:hover {
+    background-image: url("/images/snap11.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .previous{
+    font-size: 3vh;
+  }
+  .previous a{
+    color: #000;
+  }
+  .head{
+    font-family:  'Montserrat' , sans-serif;
+    font-size: 7vh;
+  }
+  .sku{
+    color: gray;
+    font-size: 3vh;
+  }
+  .rs{
+    color: gray;
+    font-size: 4vh;
+    font-family: sans-serif;
+  }
+  .si{
+    color: gray;
+    font-size: 2.5vh;
+  }
+  .stages{
+    display: flex;
+    gap:1vw;
+    transition: all ease .05s;
+  }
+  .stages button:hover{
+    background-color:rgb(65, 64, 64) ;
+  }
+  .gender{
+    color: gray;
+    font-size: 2.5vh;
+  }
+  .guide a {
+    color: rgb(65, 64, 64);
+    font-size: 3vh;
+  }
+  .cart button{
+    color: #fff;
+    background: rgb(65, 64, 64);
+    height: 6vh;
+    width: 92%;
+    font-size: 20px;
+    border: none;
+  }
+  .main{
+    overflow-x: hidden;
+  }
+  .header{
+    overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .right{
+   width: 40%;
+  }
+  .pri a{
+    font-size: 3vh;
+    color: gray;
+    transition: all ease .50s;
+  }
+  .pri a:hover{
+    color: #000;
+  }
+  .plus{
+    font-size: 3vh;
+    color: gray;
+    transition: all ease .50s;
+  }
+  .plus:hover{
+    color: #000;
+  }

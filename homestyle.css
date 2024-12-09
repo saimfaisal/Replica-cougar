@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+}
+.menuu{
+    padding-left: 3vw;
+    font-size: 25px;
+    padding-top: 1vh;
+    color: white;
+
+}
+.logoo{
+    padding-top: 1vh;
+    
+}
+.logoo img{
+    height: 5vh;
+    width: 3vw;
+}
+.person{
+    padding-right: 3vw;
+    padding-top: 1vh;
+    font-size: 25px;
+    color: white;
+
+}
+.tiny{
+    margin-top: 2vh;
+}
+.mwk{
+    display: flex;
+    margin-top: 2vh;
+    gap: 1vh;
+}
+.banner img{
+    width: 100vw;
+}
+.tiny img{
+    width: 100vw;
+}
+.men img{
+    width: 34vw;
+}
+.kids img {
+    width: 34vw;
+}
+.women img{
+    width: 34vw;
+}
+.video video{
+    width: 100vw;
+    margin-top: 1vh;
+}
+.email{
+    width: 19vw;
+    height: 6vh;
+    color: white;
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+}

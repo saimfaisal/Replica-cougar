@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--------------------popup js link------------------------>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ----------------GOOGLE FONTS_______---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <title>Check Out</title>
+  </head>
+  <body>
+    <div class="container fluid">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img src="/images/Group_147.png" />
+          </div>
+          <div class="bag">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <div class="main">
+      <!--------------------Form  ===========-->
+      <div class="left">
+        <div class="log px-5">
+          <h2 style="font-family: 'Montserrat', sans-serif">Contact</h2>
+          <a href="#">Log In</a>
+        </div>
+        <div class="email">
+          <input
+            style="width: 42vw; height: 7vh; border-radius: 5px"
+            type="email"
+            placeholder="Email"
+          /><br />
+          <label for="Email me with news and offers">
+            <input type="checkbox" />Email me with news and offers
+          </label>
+          <br /><br />
+          <h2 style="font-family: 'Montserrat', sans-serif">Delivery</h2>
+          <div
+            class="country"
+            style="width: 42vw; height: 7vh border 1px solid gray"
+          >
+            <option value="Pakistan">Pakistan</option>
+          </div>
+          <br />
+          <div class="name mt-3">
+            <input
+              type="text"
+              placeholder="First Name"
+              style="
+                width: 21vw;
+                padding-left: 1vw;
+                border-radius: 5px;
+                height: 7vh;
+              "
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              style="
+                width: 21vw;
+                padding-left: 1vw;
+                border-radius: 5px;
+                height: 7vh;
+              "
+            />
+          </div>
+          <br />
+          <input
+            type="text"
+            placeholder="Address"
+            style="
+              width: 42vw;
+              padding-left: 1vw;
+              margin-top: 2vh;
+              border-radius: 5px;
+              height: 7vh;
+            "
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            placeholder="Apartment, suuite,etc. (optional)"
+            style="
+              width: 42vw;
+              padding-left: 1vw;
+              margin-top: 2vh;
+              border-radius: 5px;
+              height: 7vh;
+            "
+          />
+          <br />
+          <br />
+          <div class="city mt-3">
+            <input
+              type="text"
+              placeholder="City"
+              style="
+                width: 21vw;
+                padding-left: 1vw;
+                border-radius: 5px;
+                height: 7vh;
+              "
+            />
+            <input
+              type="text"
+              placeholder="postal code (optioal)"
+              style="
+                width: 21vw;
+                padding-left: 1vw;
+                border-radius: 5px;
+                height: 7vh;
+              "
+            />
+          </div>
+          <br />
+          <input
+            type="phone"
+            placeholder="Phone"
+            style="
+              width: 42vw;
+              padding-left: 1vw;
+              margin-top: 2vh;
+              border-radius: 5px;
+              height: 7vh;
+            "
+          />
+          <label for="save">
+            <input type="checkbox" />Save this information for next time
+          </label>
+          <div class="ship">
+            <h4 style="font-family: 'Montserrat', sans-serif">
+              Shipping method
+            </h4>
+            <button>Standard Shipping Rs 180.00</button>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div class="paynow">
+          <button onclick="callalert();">Pay now</button>
+          <script type="text/javascript">
+            function callalert() {
+              swal("Congratulations !", "Your order is placed", "success");
+            }
+          </script>
+        </div>
+        <br /><br /><br />
+      </div>
+      <div class="right">
+        <div class="dis d-flex ms-5">
+          <div class="add">
+            <img src="/images/snap.1.webp" alt="" />
+          </div>
+          <p class="mt-4 ps-2" style="font-style: 'Montserrat', sans-serif">
+            Double Sided Jacket With Detachable <br />
+            Hood
+          </p>
+          <p
+            class="mt-4 ps-5"
+            style="font-style: 'Montserrat', sans-serif; font-weight: 500"
+          >
+            Rs 14,999.00
+          </p>
+        </div>
+        <div class="gift ms-5">
+            <input  style="
+            width: 27vw;
+            padding-left: 1vw;
+            margin-top: 3vh;
+            border-radius: 5px;
+            height: 7vh;
+          "
+           type="text" placeholder="Gift card">
+           <button style=" 
+            width: 5vw;
+            margin-top: 3vh;
+            border-radius: 5px;
+            height: 7vh;
+            margin-left:4vw
+            ">Apply</button>
+        </div>
+        <div class="subtotal ms-5 d-flex justify-content-between mt-5">
+            <p>Subtotal</p>
+            <p style="margin-right: 9vw;">Rs 14,999.00</p>
+        </div>
+        <div class="shipping ms-5 d-flex justify-content-between mt-5">
+            <p>Shipping</p>
+            <p style="margin-right: 9vw;">Rs 180.00</p>
+        </div>
+        <div class="total ms-5 d-flex justify-content-between mt-5">
+            <h4>Total</h4>
+            <h4 style="margin-right: 9vw;">Rs 15,179.00</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

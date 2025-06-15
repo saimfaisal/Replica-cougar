@@ -66,7 +66,7 @@ a {
   opacity: 0;
 }
 .snap1:hover {
-  background-image: url("/images/snap1.webp");
+  background-image: url("../Replica-cougar/images/snap1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ a {
   opacity: 0;
 }
 .snap2:hover {
-  background-image: url("/images/snap2.webp");
+  background-image: url("../Replica-cougar/images/snap2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ a {
   opacity: 0;
 }
 .snap3:hover {
-  background-image: url("/images/snap3.webp");
+  background-image: url("../Replica-cougar/images/snap3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ a {
   opacity: 0;
 }
 .snap4:hover {
-  background-image: url("/images/snap4.webp");
+  background-image: url("../Replica-cougar/images/snap4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,7 +112,7 @@ a {
     opacity: 0;
   }
   .snap5:hover {
-    background-image: url("/images/snap5.webp");
+    background-image: url("../Replica-cougar/images/snap5.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,7 @@ a {
     opacity: 0;
   }
   .snap6:hover {
-    background-image: url("/images/snap6.webp");
+    background-image: url("../Replica-cougar/images/snap6.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@ a {
     opacity: 0;
   }
   .snap7:hover {
-    background-image: url("/images/snap7.webp");
+    background-image: url("../Replica-cougar/images/snap7.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ a {
     opacity: 0;
   }
   .snap8:hover {
-    background-image: url("/images/snap8.webp");
+    background-image: url("../Replica-cougar/images/snap8.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@ a {
     opacity: 0;
   }
   .snap9:hover:hover {
-    background-image: url("/images/snap9.webp");
+    background-image: url("../Replica-cougar/images/snap9.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,7 +157,7 @@ a {
     opacity: 0;
   }
   .snap10:hover {
-    background-image: url("/images/snap10.webp");
+    background-image: url("../Replica-cougar/images/snap10.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ a {
     opacity: 0;
   }
   .snap11:hover {
-    background-image: url("/images/snap11.webp");
+    background-image: url("../Replica-cougar/images/snap11.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +175,7 @@ a {
     opacity: 0;
   }
   .snap12:hover {
-    background-image: url("/images/snap12.webp");
+    background-image: url("../Replica-cougar/images/snap12.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
